@@ -6,6 +6,7 @@ io = require('socket.io').listen(server);
 const port = process.env.PORT || 8080;
 
 app.get('/',(req,res)=>{
+    res.send("Application Working");
     console.log("Chat Application is Live");
 });
 
