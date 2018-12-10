@@ -12,7 +12,14 @@
   "dependencies": {
     "socket.io": "^2.2.0",
     "express": "*",
-    "http":"*",
-    ""
-  }
+    "http":"*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codejockey02/socketIO-ChatApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codejockey02/socketIO-ChatApp/issues"
+  },
+  "homepage": "https://github.com/codejockey02/socketIO-ChatApp#readme"
 }
