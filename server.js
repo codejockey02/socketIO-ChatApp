@@ -24,7 +24,7 @@ io.on('connection', (socket)=>{
         io.emit('message',message);
     });
 
-    socket.on('disconnect',()=>{
+    socket.on('disconnect',(userNickname)=>{
         console.log(userNickname + " has left the Chat");
         socket.broadcast.emit("userdisconnect", 'user has left');
     });
